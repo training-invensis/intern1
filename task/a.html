@@ -4,19 +4,19 @@
 </head>
 <body>
 <form method="post" action="c.html">
-<table border="1" align="center" width="400" bgcolor="#CCCCCC" >
+<table border="1" align="center" width="400" bgcolor="gray" >
 <caption>Registration form</caption>
 <tr>
 <th>Enter your first name</th>
-<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
+<td><input type="text" name="fn" placeholder="enter your first name" required/></td>
 </tr>
 <tr>
  <tr>
 <th>Enter your middle name</th>
-<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your middle name" placeholder="enter your middle name" required/></td>
+<td><input type="text" name="fn" placeholder="enter your middle name" required/></td>
 </tr>
 <th>Enter your last name</th>
-<td><input type="text" name ="fn" id="fn1" maxlength="10" title="enter your last name" placeholder="enter your last name" required/></td>
+<td><input type="text" name ="fn" placeholder="enter your last name" required/></td>
 </tr>
 <tr>
 <th>Enter your password</th>
@@ -36,7 +36,7 @@
 </tr>
 <tr>
 <th>Enter your address</th>
-<td><textarea rows="8" cols="20"></textarea></td>
+<td><textarea rows="6" cols="20"></textarea></td>
 </tr>
 <tr>
 <th>Select your gender</th>
@@ -64,10 +64,10 @@ hobby4<input type="checkbox" name="x[]" value="h4"/>
 <select name="country">
 <option value="" selected="selected" disabled="disabled">Select your country</option>
 <option value="1">India</option>
-  <option value="1">china</option>
-  <option value="1">usa</option>
-  <option value="1">uk</option>
-<option value="2">Australia</option>
+<option value="2">china</option>
+<option value="3">usa</option>
+<option value="4">uk</option>
+<option value="5">Australia</option>
 </select>
 </td>
 </tr>
@@ -76,7 +76,8 @@ hobby4<input type="checkbox" name="x[]" value="h4"/>
 <td><input type="file"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><input type="submit" value="Save My Data"/>
+<td colspan="2" align="center">
+<input type="submit" value="Save My Data"/>
 <input type="reset" value="Reset Data"/>
 </td>
 </tr>
