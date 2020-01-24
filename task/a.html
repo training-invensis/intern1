@@ -3,23 +3,27 @@
 #welcome
 html>
 <head>
+<<<<<<< HEAD
 <title>HTML Tabletitle>
+=======
+<title>HTML Tables</title>
+>>>>>>> b706004b0f54ed30f1dfd0588590ecb733f25ce3
 </head>
 <body>
 <form method="post" action="c.html">
-<table border="1" align="center" width="400" bgcolor="#CCCCCC" >
+<table border="1" align="center" bgcolor="gray" >
 <caption>Registration form</caption>
 <tr>
 <th>Enter your first name</th>
-<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/></td>
+<td><input type="text" name="fn" required/></td>
 </tr>
 <tr>
  <tr>
 <th>Enter your middle name</th>
-<td><input type="text" name="fn" id="fn1" maxlength="10" title="enter your middle name" placeholder="enter your middle name" required/></td>
+<td><input type="text" name="fn" required/></td>
 </tr>
 <th>Enter your last name</th>
-<td><input type="text"/></td>
+ <td><input type="text" name="fn" required/></td>
 </tr>
 <tr>
 <th>Enter your password</th>
@@ -39,14 +43,7 @@ html>
 </tr>
 <tr>
 <th>Enter your address</th>
-<td><textarea rows="8" cols="20"></textarea></td>
-</tr>
-<tr>
-<th>Select your gender</th>
-<td>
-male<input type="radio" name="g" value="m"/>
-female<input type="radio" name="g" value="f"/>
-</td>
+<td><textarea rows="6" cols="20"></textarea></td>
 </tr>
 <tr>
 <th>Select your hobbies</th>
@@ -54,6 +51,7 @@ female<input type="radio" name="g" value="f"/>
 hobby1<input type="checkbox" name="x[]" value="h"/>
 hobby2<input type="checkbox" name="x[]" value="h2"/>
 hobby3<input type="checkbox" name="x[]" value="h3"/>
+hobby4<input type="checkbox" name="x[]" value="h4"/>
 </td>
 </tr>
 <tr>
@@ -66,19 +64,22 @@ hobby3<input type="checkbox" name="x[]" value="h3"/>
 <select name="country">
 <option value="" selected="selected" disabled="disabled">Select your country</option>
 <option value="1">India</option>
-  <option value="1">china</option>
-  <option value="1">usa</option>
-  <option value="1">uk</option>
-<option value="2">Australia</option>
+<option value="2">china</option>
+<option value="3">usa</option>
+<option value="4">uk</option>
+<option value="5">Australia</option>
+<option value="6">france</option>
+<option value="7">indonesia</option>
 </select>
 </td>
 </tr>
 <tr>
-<th>Upload your pic </th>
+<th>Upload your photo </th>
 <td><input type="file"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><input type="submit" value="Save My Data"/>
+<td colspan="2" align="center">
+<input type="submit" value="Save My Data"/>
 <input type="reset" value="Reset Data"/>
 </td>
 </tr>
